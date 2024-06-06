@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "target": "ES6",
-    "strict": false,
+    "strict": true,
     "module": "CommonJS",
     "moduleResolution": "Node",
     "esModuleInterop": false,
     "outDir": "./dist",
     "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true
   }
